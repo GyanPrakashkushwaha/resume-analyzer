@@ -1,3 +1,6 @@
 fastapi 
 uvicorn 
 python-multipart
+langchain_core
+langchain-google-genai
+dotenv

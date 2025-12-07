@@ -1,0 +1,97 @@
+Data Science / Computer Vision Intern
+
+
+About Khel.AI
+
+DRS by Khel.AI was born out of the founders’ passion for cricket and the vision to
+
+revolutionise the sport using advanced AI technologies. We are a team of cricket enthusiasts
+
+and tech innovators building cutting-edge solutions that make the game fairer, more
+
+engaging, and more accessible.
+
+Our work spans computer vision, machine learning, sensor fusion, and real-time sports
+
+analytics — all centred around the modern cricket ecosystem.
+
+
+Role Overview
+
+As a Data Science / Computer Vision Intern at Khel.AI, you will contribute to building
+
+next-generation cricket-tech products. You will work on real match data, multi-camera
+
+setups, and innovative AI solutions that directly impact how the sport is analysed and
+
+experienced.
+
+
+Key Responsibilities
+
+● Develop and enhance technologies involving cameras, sensors, and computer
+
+vision to improve accuracy and system performance.
+
+● Apply machine learning and data analysis techniques to refine existing models and
+
+extract actionable insights.
+
+● Collaborate with cross-functional engineering teams to design and implement new
+
+product features.
+
+● Research and experiment with the latest advancements in CV, ML, and sports
+
+analytics.
+
+● Contribute to building modules such as ball tracking, player tracking,
+
+multi-camera calibration, scoring systems, and performance analysis.
+
+
+Required Skills & Qualifications
+
+● Strong problem-solving abilities and an analytical mindset.
+
+● Proven project experience in software development, machine learning, or computer
+
+vision.
+
+● Hands-on experience with Python and related ML/CV workflows.
+
+● Passion for sports — especially cricket — and excitement to work on real-world
+
+sports technology.
+
+● Bachelor’s degree (or above) in Data Science, Computer Science, or a related field.
+
+● Candidates with hands-on deep learning experience will be preferred.
+
+
+Desirable Skills
+
+● Experience with computer vision frameworks such as OpenCV, TensorFlow, or
+
+PyTorch.
+
+● Familiarity with sports analytics, motion analysis, or performance-enhancing
+
+technologies.
+
+● Strong communication skills to explain technical concepts to diverse teams.
+
+
+Key Areas of Work
+
+● Sensors & Cameras
+
+● Computer Vision
+
+● Machine Learning
+
+● Sports Analytics
+
+● Real-time Systems
+
+● Software Development (Python)
