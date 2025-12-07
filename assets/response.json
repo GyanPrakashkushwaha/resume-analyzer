@@ -1,0 +1,135 @@
+{
+  "res": {
+    "overallScore": 4,
+    "ATS": {
+      "score": 6,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Clear section headings and consistent formatting make the resume easy for ATS to parse.",
+          "explanation": null
+        },
+        {
+          "type": "good",
+          "tip": "Includes relevant keywords like 'Machine Learning', 'Python', 'Data Science', and 'real-time systems'.",
+          "explanation": null
+        },
+        {
+          "type": "improve",
+          "tip": "Incorporate more specific Computer Vision keywords throughout the resume.",
+          "explanation": "The job description heavily emphasizes Computer Vision, but this term is largely absent from your summary, skills, and project descriptions. Explicitly mention 'Computer Vision', 'Deep Learning', 'OpenCV', 'TensorFlow', 'PyTorch', 'object tracking', 'image processing', 'multi-camera calibration', etc."
+        },
+        {
+          "type": "improve",
+          "tip": "Add keywords related to 'Sports Analytics' and 'Cricket'.",
+          "explanation": "The company, Khel.AI, is focused on cricket and sports analytics. Highlighting any relevant experience or even a stated passion for sports will help the resume rank higher for this specific role."
+        }
+      ]
+    },
+    "toneAndStyle": {
+      "score": 8,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Uses strong action verbs at the beginning of bullet points (e.g., 'Architected', 'Deployed', 'Built', 'Engineered', 'Analyzed').",
+          "explanation": null
+        },
+        {
+          "type": "good",
+          "tip": "The language is professional and concise, making it easy to read and understand.",
+          "explanation": null
+        },
+        {
+          "type": "improve",
+          "tip": "Tailor the summary to directly address the specific role and company.",
+          "explanation": "While professional, the summary is generic. Make it more impactful by explicitly mentioning your interest in Computer Vision, sports AI, and Khel.AI's mission."
+        }
+      ]
+    },
+    "content": {
+      "score": 4,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Projects demonstrate strong experience in end-to-end Machine Learning pipelines, data analysis, and real-time application deployment.",
+          "explanation": null
+        },
+        {
+          "type": "good",
+          "tip": "Quantifiable achievements are present in some project descriptions, such as 'uncover seasonal demand patterns' and 'derived actionable recommendations for ~70% of revenue'.",
+          "explanation": null
+        },
+        {
+          "type": "improve",
+          "tip": "Significantly enhance content related to Computer Vision.",
+          "explanation": "This is the most critical area for improvement. The job is for a 'Data Science / Computer Vision Intern', but your resume lacks any explicit Computer Vision projects or detailed experience. You need to showcase projects involving image/video processing, object detection/tracking, segmentation, multi-camera systems, or related CV tasks. Even if your existing projects have a minor CV component, emphasize it more."
+        },
+        {
+          "type": "improve",
+          "tip": "Demonstrate passion for sports, especially cricket.",
+          "explanation": "The job description explicitly lists 'Passion for sports — especially cricket' as a required skill. This is not evident anywhere in your resume. Consider adding a brief mention in your summary or a dedicated 'Interests' section if you have relevant experience or involvement."
+        },
+        {
+          "type": "improve",
+          "tip": "Elaborate on '200+ problems solved' in the summary.",
+          "explanation": "While 'Kaggle Expert' and '200+ problems solved' sound impressive, they are vague. Consider replacing this with a more specific achievement or a brief mention of a relevant Kaggle competition or project that aligns with the job description."
+        }
+      ]
+    },
+    "structure": {
+      "score": 7,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "The resume has clear and well-defined sections (Summary, Technical Skills, Projects, Education).",
+          "explanation": null
+        },
+        {
+          "type": "good",
+          "tip": "Consistent use of bullet points and formatting makes the resume easy to navigate and read.",
+          "explanation": null
+        },
+        {
+          "type": "improve",
+          "tip": "Prioritize and condense the 'Technical Skills' section.",
+          "explanation": "While comprehensive, some skills like 'Frontend' and 'Backend' (Flask, React, Vue) are less relevant for a Data Science/Computer Vision role. Consider moving highly relevant skills (Python, ML/CV frameworks) to the top and potentially condensing or removing less relevant ones to make space for more critical CV-related skills."
+        },
+        {
+          "type": "improve",
+          "tip": "Remove or condense less relevant educational entries.",
+          "explanation": "The high school entry (Government Higher Secondary School, Satna) is generally not necessary for a professional resume, especially when you have a university degree. This can free up space."
+        }
+      ]
+    },
+    "skills": {
+      "score": 4,
+      "tips": [
+        {
+          "type": "good",
+          "tip": "Strong foundation in Python and core Machine Learning libraries (Pandas, NumPy, Scikit-learn, XGBoost).",
+          "explanation": null
+        },
+        {
+          "type": "good",
+          "tip": "Experience with real-time deployment (Streamlit) and some Gen AI tools (LangChain, Gemini API, FAISS).",
+          "explanation": null
+        },
+        {
+          "type": "improve",
+          "tip": "Add specific Computer Vision frameworks and libraries.",
+          "explanation": "The job description explicitly mentions 'OpenCV, TensorFlow, or PyTorch' as desirable skills. These are completely missing from your 'Technical Skills' section. This is a major gap for a Computer Vision role."
+        },
+        {
+          "type": "improve",
+          "tip": "Explicitly list 'Deep Learning' experience and related frameworks.",
+          "explanation": "The JD states 'Candidates with hands-on deep learning experience will be preferred.' While you have ML, deep learning is a specific subset often used in CV. List frameworks like TensorFlow, PyTorch, Keras, etc., and mention deep learning models you've worked with."
+        },
+        {
+          "type": "improve",
+          "tip": "Include skills related to 'Sports Analytics', 'Motion Analysis', or 'Performance-enhancing technologies'.",
+          "explanation": "These are desirable skills in the JD and directly align with Khel.AI's mission. If you have any experience or knowledge in these areas, list them."
+        }
+      ]
+    }
+  }
+}

@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
- typing import Literal, Optional, List
+from typing import Literal, Optional, List
 
 class Tip(BaseModel):
     type: Literal["good", "improve"] = Field(description="Whether this is positive feedback ('good') or a suggestion to improve ('improve').")
