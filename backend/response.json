@@ -1,0 +1,73 @@
+{
+  "overallScore": 85,
+  "ATS": {
+    "score": 90,
+    "tips": [
+      {
+        "type": "improve",
+        "tip": "Rewrite AWS (Foundation) to be more specific.",
+        "explanation": "Change 'AWS (Foundation)' to specific AWS services you have experience with, e.g., 'AWS (EC2, S3, Lambda, SageMaker)'."
+      },
+      {
+        "type": "improve",
+        "tip": "Clarify proficiency with Langgraph.",
+        "explanation": "If you are proficient, change 'Langgraph (Learning)' to 'Langgraph'. If still learning, consider moving it to a dedicated 'Learning' section or omitting it for now."
+      }
+    ]
+  },
+  "toneAndStyle": {
+    "score": 85,
+    "tips": [
+      {
+        "type": "improve",
+        "tip": "Rewrite the summary to be more impactful and assertive.",
+        "explanation": "Change 'Eager to contribute to real-world engineering challenges through an internship.' to 'Seeking to leverage strong DSA fundamentals and hands-on experience in end-to-end ML project development to contribute to real-world engineering challenges.'"
+      }
+    ]
+  },
+  "content": {
+    "score": 90,
+    "tips": [
+      {
+        "type": "good",
+        "tip": "Projects demonstrate strong technical skills and quantifiable impact.",
+        "explanation": null
+      },
+      {
+        "type": "improve",
+        "tip": "Enhance the summary to focus on value proposition.",
+        "explanation": "Ensure the summary clearly states what you bring to a role, rather than what you are seeking. For example, instead of 'Eager to contribute...', focus on your capabilities and how they align with typical ML/DS roles."
+      }
+    ]
+  },
+  "structure": {
+    "score": 80,
+    "tips": [
+      {
+        "type": "improve",
+        "tip": "Remove high school education.",
+        "explanation": "Remove 'Government Higher Secondary School, Satna' and its associated dates and grade. Once you have a university degree, high school education is generally not necessary on a professional resume."
+      },
+      {
+        "type": "improve",
+        "tip": "Ensure consistent date formatting for education.",
+        "explanation": "Verify the dates for 'Indian Institute of Technology, Madras' and ensure they clearly indicate current enrollment or graduation, especially in relation to the high school dates if it were to be kept (though removal is recommended)."
+      }
+    ]
+  },
+  "skills": {
+    "score": 90,
+    "tips": [
+      {
+        "type": "improve",
+        "tip": "Specify AWS services.",
+        "explanation": "Instead of 'AWS (Foundation)', list specific AWS services you have experience with, such as 'AWS (EC2, S3, Lambda, SageMaker)'."
+      },
+      {
+        "type": "improve",
+        "tip": "Clarify Langgraph proficiency.",
+        "explanation": "If you are proficient, change 'Langgraph (Learning)' to 'Langgraph'. If still in early learning stages, consider omitting it or placing it in a separate 'Learning' section."
+      }
+    ]
+  }
+}

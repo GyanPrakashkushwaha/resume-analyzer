@@ -11,8 +11,9 @@ async def analyze(
     job_description: str = Form("")  
 ):
     file_bytes = await f.read()
+    print("image Read!")
     img_b64 = b64encode(file_bytes).decode("utf-8")
-    
+    print("Image Encoded")
     # This returns the Pydantic model, which FastAPI will automatically convert to JSON
     analyzer = analyze_resume(
         job_title=job_title, 

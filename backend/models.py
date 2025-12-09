@@ -1,19 +1,19 @@
 from pydantic import BaseModel, Field
- typing import Literal, Optional, List
+from typing import Literal, Optional, List
 
 class Tip(BaseModel):
-    type: Literal["good", "improve"] = Field(description="Whether this is positive feedback ('good') or a suggestion to improve ('improve').")
-    tip: str = Field(description="A short, specific point of feedback about the resume.")
-    explanation: Optional[str] = Field(default=None,description="A more detailed explanation or example for this tip (optional).")
-    
+    type: Literal["good", "improve"] = Field(description="Whether this is positive feedback or a critical improvement needed.")
+    tip: str = Field(description="The specific issue or action item. E.g., 'Missing keyword: Kubernetes' or 'Rewrite the API bullet point'.")
+    explanation: Optional[str] = Field(default=None, description="The EXACT text the user should add or change. Do not give general advice. Provide the specific sentence or keyword list based on the Job Description.")
+
 class Category(BaseModel):
-    score: int = Field(description="Score for this specific category (e.g., ATS, content, tone), typically on a 0–10 scale.")
-    tips: List[Tip] = Field(description="List of tips related to this category, including what is good and what should be improved.")
-    
+    score: int = Field(description="Score for this category (0-100).", ge=0, le=100)
+    tips: List[Tip] = Field(description="List of specific, actionable tips.")
+
 class Feedback(BaseModel):
-    overallScore: int = Field(description="Overall score for the resume considering all aspects, typically on a 0–10 scale.")
-    ATS: Category = Field(description="How well the resume is optimized for ATS (keywords, formatting, parsing friendliness).")
-    toneAndStyle: Category = Field(description="Quality of tone and writing style: clarity, professionalism, conciseness, and consistency.")
-    content: Category = Field(description="Relevance and completeness of the information: experience, projects, achievements, and impact.")
-    structure: Category = Field(description="Organization and layout of the resume: sections, readability, and overall flow.")
-    skills: Category = Field(description="Match and clarity of technical and soft skills relative to the job description.")
+    overallScore: int = Field(description="Overall score (0-100).", ge=0, le=100)
+    ATS: Category = Field(description="ATS optimization based on specific keywords found in the Job Description but missing in the Resume.")
+    toneAndStyle: Category = Field(description="Feedback on action verbs and professional phrasing.")
+    content: Category = Field(description="Feedback on how well the projects/experience match the specific requirements of the Job Description.")
+    structure: Category = Field(description="Organization and layout feedback.")
+    skills: Category = Field(description="Feedback on technical/soft skills gaps between the Resume and Job Description.")
